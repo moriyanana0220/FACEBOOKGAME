@@ -26,47 +26,33 @@
     </form>
 
 </div>
-<footer style="text-align: center">
-    <div
-            class="fb-like"
-            data-share="true"
-            data-width="450"
-            data-show-faces="true"
-            >
-    </div>
-    <div>
-    <!-- GoogleAD -->
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:728px;height:90px"
-         data-ad-client="ca-pub-7078299835326549"
-         data-ad-slot="1261901716"></ins>
-    </div>
-</footer>
+
 </body>
+<footer style="text-align: center">
+   <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+    
+</footer>
+
 <script>
-    window.fbAsyncInit = function () {
-        FB.init({
-            appId: '1572649893058827',
-            xfbml: true,
-            version: 'v2.5'
-        });
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1012073652196679',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
 
-    };
-
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {
-            return;
-        }
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-    //Google AD
-    (adsbygoogle = window.adsbygoogle || []).push({});
-
-
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
 </script>
 </html>
